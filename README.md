@@ -5,3 +5,5 @@ I am  a scientist in animal production looking to leverage the R as a tool to re
 My research interests lie in animal nutrition, physiology, pathogenosis of infectious disease, spatial data analysis, epidemiology, and farm sustainability. 
 
 This repository is for learning R fundamentals and advanced topics in R with version control for collaboration and reproducibility. I believe that through practice I will be able to gain insight from data using .
+
+I will be using data set sourced from Kaggle
