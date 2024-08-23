@@ -3,6 +3,7 @@
 # BOX PLOT
 
 data(mtcars) # load the mtcars data set 
+
 summary(mtcars) # data exploration
 str(mtcars) 
 
