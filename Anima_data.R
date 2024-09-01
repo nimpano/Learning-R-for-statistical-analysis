@@ -1,3 +1,8 @@
+# Load library to be used in this project
+
+library(tidyverse)
+library(dplyr)    # Load the dplyr package for data wrangling
+
 # Loading data in R
 
 animal_data <- read.csv("animal_data.csv")
@@ -26,3 +31,17 @@ summary(animal_data) # descriptive statistics for numerical variables
 numeric_var <- animal_data [6:11] 
 # after this I'm going to pre-process the data for missing values and treat the outlier accordingly'
 
+is.na(numeric_var)  #check the NA values in numeric_var
+`
+# Replace NA values with the column mean for numerical columns
+
+?mutate_if
+?replace_na
+?mean
+
+mutated_numeric_var <- numeric_var %>% # is pipping 
+  mutate_if(is.numeric, ~replace_na(.x, mean(.x, na.rm = TRUE)))
+mutated_numeric_var
+
+?boxplot
+boxplot(mutated_numeric_var)
