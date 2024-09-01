@@ -1,0 +1,1 @@
+animal_data <- read.csv("animal_data.csv")
