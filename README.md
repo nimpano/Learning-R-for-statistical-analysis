@@ -6,4 +6,5 @@ My research interests lie in animal nutrition, physiology, pathogenosis of infec
 
 This repository is for learning R fundamentals and advanced topics in R with version control for collaboration and reproducibility. I believe that through practice I will be able to gain insight from data using .
 
-I will be using data set sourced from Kaggle
+I will be using data set sourced from Kaggle:
+                    1. Animal data set: The descrption of the file and csv file are in this project
